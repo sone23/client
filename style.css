@@ -1,0 +1,49 @@
+#padding {
+  padding: 2% 2%;
+}
+#avatar {
+  background-image: url("https://avatars0.githubusercontent.com/u/9064066?v=4&s=460");
+  height: 150%;
+  background-position: center;
+  background-size: contain;
+}
+[v-cloak]{
+  display: none;
+}
+.template{
+  margin: 10px;
+  padding: 5px;
+  margin-top: 0px;
+  background-color: gray
+}
+.information{
+  padding-top: 5px;
+}
+.v-progress-linear{
+  margin: 0rem 0;
+}
+
+#fixedPos {
+position: absolute;
+z-index: 100;
+}
+#body {
+   background-image: url("img/lightLeft.jpg");
+   background-size: cover;
+   background-position: center ;
+   background-attachment: fixed;
+   font-family: 'Nunito Sans', 'Roboto', sans-serif;
+ }
+/*
+.dark { color: rgba(85, 82, 89, 1); }
+.white { color: rgba(234, 238, 242, 1); }
+.yellow { color: rgba(242, 214, 162, 1); }
+.tan { color: rgba(242, 225, 205, 1); }
+.pink { color: rgba(191, 156, 149, 1); }
+*/
+/* progress {
+  background-color: orangered;
+}
+progress::-webkit-progress-bar {
+  color: crimson;
+} */
